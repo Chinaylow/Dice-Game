@@ -1,7 +1,9 @@
 .container {
   width: 70%;
-  margin: auto;
+  margin: 200px auto 50px auto;
   text-align: center;
+  /* background-color: bisque; */
+
 }
 
 .dice {
@@ -12,25 +14,39 @@
 
 body {
   background-color: #393E46;
+
 }
 .click{
-  font-size: 3rem;
+  padding: 10px;
+  font-size: 1.5rem;
   margin-top: 20px;
   border-radius: 10px;
-  background-color: #4ECCA3;;
+  background-color: rgb(212, 193, 193);
   border: none;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.click2{
+  padding: 10px;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  color: #4ECCA3;
 }
 
 h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 4rem;
+  font-size: 5rem;
   color: #4ECCA3;
 }
 
 p {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
 }
@@ -39,15 +55,19 @@ img {
   width: 80%;
 }
 .score{
+  margin-top: 40px;
   display: flex;
   justify-content: space-around;
-  color: #4ECCA3;;
+  color: #4ECCA3;
+  font-size: 25px;
+  font-family: sans-serif;
+
 }
 
 footer {
   margin-top: 5%;
   color: #EEEEEE;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
+  
 
 }

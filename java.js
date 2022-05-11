@@ -26,5 +26,12 @@ var player2Score = 0;
     
     document.querySelector("#player1-score").innerHTML = player1Score;
     document.querySelector("#player2-score").innerHTML = player2Score;
+ 
 
 }
+// function resetScore(){
+//     document.querySelector("#player1-score").innerHTML = 0;
+//     document.querySelector("#player2-score").innerHTML = 0;
+//     player1Score += 0;
+//     player2Score += 0;
+// }
